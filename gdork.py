@@ -23,7 +23,7 @@ for col in z:
     time.sleep(0.25)
 
 try:
-    data = input("\n[~] Save output to a file? (Y/N) ").strip()
+    data = input("\n[~] Save output to a file? (y/n) ").strip()
     l0g = ("")
 
 except KeyboardInterrupt:
