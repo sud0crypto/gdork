@@ -23,7 +23,7 @@ for col in z:
     time.sleep(0.25)
 
 try:
-    data = input("\n[+] Save output to a file? (Y/N) ").strip()
+    data = input("\n[~] Save output to a file? (Y/N) ").strip()
     l0g = ("")
 
 except KeyboardInterrupt:
@@ -53,8 +53,8 @@ else:
 
 def autodorks():
     try:
-        dork = input("\n[+] Enter Dork Query: ")
-        amount = input("[+] Enter Number of Websites to Return: ")
+        dork = input("\n[~] Enter Dork Query: ")
+        amount = input("[~] Enter Number of Websites to Return: ")
         print ("\n ")
 
         requ = 0
@@ -81,7 +81,7 @@ def autodorks():
             time.sleep(0.5)
             sys.exit(1)
 
-    print ("\n\n\33[94m [+] Google Dorking Complete\33[94m")
+    print ("\n\n\33[94m[+] Google Dorking Complete\33[94m")
 
 
 
