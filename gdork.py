@@ -35,14 +35,14 @@ except KeyboardInterrupt:
 
 
 def logger(data):
-    file = open((l0g) + ".html", "a")
+    file = open((l0g) + ".txt", "a")
     file.write(str(data))
     file.write("\n")
     file.close()
 
 
 if data.startswith("y" or "Y"):
-    l0g = input("[~] Name the file (file will save as .html in current directory): ")
+    l0g = input("[~] Name the file (file will save as .txt in current directory): ")
     print ("\n" + "  " + "-" * 50 + "\n")
     logger(data)
 else:
