@@ -6,7 +6,6 @@ if sys.version[0] in "2":
     print ("\n[x] gdork does not support python 2.x Use Python 3.x \n")
     exit()
 
-
 class colors:
     CBLUE2 = "\33[94m"
 
@@ -36,14 +35,14 @@ except KeyboardInterrupt:
 
 
 def logger(data):
-    file = open((l0g) + ".txt", "a")
+    file = open((l0g) + ".html", "a")
     file.write(str(data))
     file.write("\n")
     file.close()
 
 
 if data.startswith("y" or "Y"):
-    l0g = input("[~] Name the file (file will save as .txt in current directory): ")
+    l0g = input("[~] Name the file (file will save as .html in current directory): ")
     print ("\n" + "  " + "-" * 50 + "\n")
     logger(data)
 else:
